@@ -19,5 +19,5 @@ library
   exposed-modules:	Codec.Image.PNG, Codec.Image.PNG.Internal.CRC,
                         Codec.Image.PNG.Internal.Filters,
                         Codec.Image.PNG.Internal.Parser
-  build-depends:	base >= 3, zlib, parsec >= 3.0.0, bytestring, array, mtl, haskell98
+  build-depends:	base >= 3, zlib, parsec >= 3.0.0, bytestring, array, mtl
   ghc-options:		-Wall
